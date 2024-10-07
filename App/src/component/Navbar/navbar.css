@@ -1,0 +1,92 @@
+.limiter-menu-desktop {
+  background-color: #333;
+   padding: 10px;
+ }
+
+.logo img {
+  width: 65px;
+   height: auto;
+   margin-left: 20px;
+}
+
+.menu-desktop {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+
+.main-menu {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu li {
+  margin-right: 20px;
+ }
+
+.active-menu a {
+  color: #fff;
+   font-weight: bold;
+ }
+
+a {
+  text-decoration: none;
+   color: #fff;
+ }
+
+.icon-header-item {
+  margin-left: 10px;
+   cursor: pointer;
+ }
+
+.icon-header-noti {
+  position: relative;
+}
+
+.icon-header-noti::after {
+  content: attr(data-notify);
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  /* / Background color for notification count / */
+  color: #fff;
+  /* / Text color for notification count / */
+  border-radius: 50%;
+  /* / Make it circular / */
+  padding: 4px 8px;
+  /* / Padding around notification count / */
+  font-size: 12px;
+  /* / Font size of notification count / */
+}
+
+.nav-item {
+  color: black !important;
+}
+ 
+
+
+.overlay-text {
+  /* / position: absolute; / */
+  top: 5%;
+  left: 26%;
+  /* / transform: translate(-50%, -50%); / */
+  background-color: #ffffffb3;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.admin_image {
+  width: 100%;
+}
+
+.admin_change_password {
+  border: none;
+  text-decoration: underline;
+  background-color: ghostwhite;
+
+}

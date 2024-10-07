@@ -1,0 +1,101 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #003366; /* Dark blue background */
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-title {
+  font-size: 24px;
+  color: #003366;
+  margin-bottom: 1rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.password-group {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #ccc;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(to right, #00aaff, #0044cc);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background: linear-gradient(to right, #0044cc, #00aaff);
+}
+
+.forgot-password {
+  color: #003366;
+  font-size: 14px;
+  margin-top: 0.5rem;
+}
+
+.social-login {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.social-login p {
+  color: #003366;
+}
+
+.social-icons img {
+  width: 32px;
+  margin: 0 0.5rem;
+}
+
+.signup-link {
+  margin-top: 1rem;
+  color: #fff;
+}
+
+.signup-link a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
